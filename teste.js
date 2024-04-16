@@ -8,3 +8,8 @@ const prompt = require('prompt-sync')();
 // Área de processamento: 
 
 // Área de saída: 
+
+let x = "abc"
+
+console.log(typeof(Number(x)));
+console.log(x)
