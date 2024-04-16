@@ -1,10 +1,14 @@
-//  Atividade 01 -- Exercicio 03
-//  Faça um algoritmo que leia quatro números inteiros e realize as seguintes operações:
-// ● Some 25 ao primeiro inteiro;
-// ● Triplique o valor do segundo inteiro;
-// ● Modifique o valor do terceiro inteiro para 12% do valor original;
-// ● Armazene no quarto inteiro a soma dos valores originais (os que o usuário digitou) dos primeiros três inteiros.
+//  Atividade 01 -- Exercicio 04
+
 
 
 const prompt = require('prompt-sync')();
 
+// Área de entrada: 
+
+
+// Área de processamento: 
+
+
+
+// Área de saída: 
