@@ -1,5 +1,9 @@
-//  Atividade 01 -- Exercicio 02
-//  Escreva um algoritmo para ler uma temperatura em graus Celsius, calcular e escrever o valor correspondente em graus Fahrenheit.
+//  Atividade 01 -- Exercicio 03
+//  Faça um algoritmo que leia quatro números inteiros e realize as seguintes operações:
+// ● Some 25 ao primeiro inteiro;
+// ● Triplique o valor do segundo inteiro;
+// ● Modifique o valor do terceiro inteiro para 12% do valor original;
+// ● Armazene no quarto inteiro a soma dos valores originais (os que o usuário digitou) dos primeiros três inteiros.
 
 
 const prompt = require('prompt-sync')();
