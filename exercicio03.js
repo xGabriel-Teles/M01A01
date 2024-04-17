@@ -15,7 +15,7 @@ let num3 = parseInt(prompt('Digite o terceiro número: '));
 let num4 = parseInt(prompt('Digite o quarto número: '));
 
 // Área de processamento: 
-num4 = num4 + num1 + num2 + num3;
+num4 = num1 + num2 + num3;
 num1 += 25;
 num2 *= 3; 
 num3 *= (0.12).toFixed(2);
