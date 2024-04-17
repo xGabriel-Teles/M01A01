@@ -1,5 +1,10 @@
-//  Atividade 01 -- Exercicio 07
-//  As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. 
-//  Escreva um algoritmo que leia o número de maçãs compradas, calcule e escreva o valor total da compra.
+//  Atividade 01 -- Exercicio 08
+//  Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais) e escreve-los em ordem crescente.
 
 const prompt = require('prompt-sync')();
+
+// Área de entrada:
+
+// Área de processamento: 
+
+//Área de saída: 
