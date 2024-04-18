@@ -9,6 +9,7 @@
 const prompt = require('prompt-sync')();
 
 // Área de entrada: 
+console.log('=============================================================================');
 let ladoA = parseInt(prompt('Digite o primeiro lado do triângulo: '));
 let ladoB = parseInt(prompt('Digite o segundo lado do triângulo: '));
 let ladoC = parseInt(prompt('Digite o terceiro lado do triângulo: '));
@@ -16,7 +17,8 @@ let tipoTriangulo;
 
 // Área de processamento: 
 if (ladoA + ladoB > ladoC && ladoB + ladoC > ladoA && ladoA + ladoC > ladoB) {
-    console.log('É possível formar um triângulo com esses valores escolhidos para cada lado!');
+    console.log();
+    console.log('É possível formar um triângulo com os valores informados para cada lado!');
 
     if (ladoA === ladoB && ladoB === ladoC) {
         tipoTriangulo = "TRIÂNGULO EQÜILATERO";
@@ -27,7 +29,11 @@ if (ladoA + ladoB > ladoC && ladoB + ladoC > ladoA && ladoA + ladoC > ladoB) {
     }
 
     // Área de saída:
+    console.log();
     console.log(`Com os valores informados, você formou um ${tipoTriangulo}.`);
+    console.log('=============================================================================');
 } else {
+    console.log();
     console.log('Não é possível formar um triangulo com estes números.');
+    console.log('=============================================================================');
 }

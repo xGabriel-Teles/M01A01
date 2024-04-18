@@ -9,6 +9,7 @@
 const prompt = require('prompt-sync')();
 
 // Área de entrada:
+console.log('=============================================================================');
 let codOrigem = parseInt(prompt('Digite o código de origem do produto: '));
 let regiaoProduto;
 
@@ -45,7 +46,11 @@ switch (codOrigem) {
 
 // Área de saída: 
 if (regiaoProduto === 'produto importado') {
+    console.log();
     console.log(`Este produto não é nacional, é um ${regiaoProduto}.`);
+    console.log('=============================================================================');
 } else {
+    console.log();
     console.log(`O produto é da região ${regiaoProduto}.`);
+    console.log('=============================================================================');
 }

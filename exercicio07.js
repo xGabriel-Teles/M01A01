@@ -5,6 +5,7 @@
 const prompt = require('prompt-sync')();
 
 // Área de entrada:
+console.log('=============================================================================');
 let qtdComprada = parseInt(prompt('Digite quantas maçãs foram compradas: '));
 let preco;
 
@@ -20,3 +21,4 @@ if (qtdComprada >= 12){
 
 //Área de saída: 
 console.log(`O valor total da compra foi de R$${(preco * qtdComprada).toFixed(2)}.`);
+console.log('=============================================================================');
