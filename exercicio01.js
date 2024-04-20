@@ -8,6 +8,7 @@ const prompt = require('prompt-sync')();
 let temperaturaCelsius = parseInt(prompt('Digite a temperatura em Celsius: '));
 
 // Área de processamento: 
+// Fórmula de conversão = (x°C × 9/5) + 32 = x°F
 let temperaturaFahrenheit = (temperaturaCelsius * 9 / 5) + 32;
 
 // Área de saída: 

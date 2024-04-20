@@ -15,9 +15,17 @@ let num3 = parseInt(prompt('Digite o terceiro número: '));
 let num4 = parseInt(prompt('Digite o quarto número: '));
 
 // Área de processamento: 
+
+// ● Armazene no quarto inteiro a soma dos valores originais (os que o usuário digitou) dos primeiros três inteiros.
 num4 = num1 + num2 + num3;
+
+// ● Some 25 ao primeiro inteiro;
 num1 += 25;
+
+// ● Triplique o valor do segundo inteiro;
 num2 *= 3; 
+
+// ● Modifique o valor do terceiro inteiro para 12% do valor original;
 num3 *= (0.12).toFixed(2);
 
 

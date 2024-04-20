@@ -18,7 +18,8 @@ if (qtdComprada >= 12){
 } else {
     preco = 0.30;
 }
+let valorTotal = (preco * qtdComprada).toFixed(2);
 
 //Área de saída: 
-console.log(`O valor total da compra foi de R$${(preco * qtdComprada).toFixed(2)}.`);
+console.log(`O valor total da compra foi de R$${valorTotal}.`);
 console.log('=============================================================================');
