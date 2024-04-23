@@ -4,6 +4,7 @@
 
 let contador = 100;
 let qtdPrimos = 1;
+let listaDePrimos = [];
 
 console.log('=============================================================================');
 while (qtdPrimos <= 50) {
@@ -11,15 +12,20 @@ while (qtdPrimos <= 50) {
     let qtdDivisoes = 0;
     while (divisor <= contador) {
         if (contador % divisor === 0) {
-            qtdDivisoes++
+            qtdDivisoes++;
         }
-        divisor++
+        divisor++;
     }
 
     if (qtdDivisoes === 2) {
-        console.log(`${qtdPrimos}º número primo após o número 100 é: ${contador}`)
-        qtdPrimos++
+        console.log(`${qtdPrimos}º número primo após o número 100 é: ${contador}`);
+        listaDePrimos.push(contador);
+        qtdPrimos++;
     }
-    contador++
+    contador++;
 }
 console.log('=============================================================================');
+
+// EXTRA: resultado em formato de array. 
+console.log();
+console.log(listaDePrimos);
