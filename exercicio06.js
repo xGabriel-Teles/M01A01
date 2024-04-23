@@ -6,6 +6,7 @@
 // ● Triângulo escaleno: possui todos os lados diferentes (A<>B e B <> C)
 // ● Triângulo eqüilátero: possui todos os lados iguais (A=B e B=C)
 
+
 const prompt = require('prompt-sync')();
 
 // Área de entrada: 

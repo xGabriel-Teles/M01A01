@@ -13,14 +13,17 @@ let peso;
 
 while (numero !== 0) {
 
-    if (isNaN(numero-1)) {
+    if (isNaN(numero - 1)) {
         console.log('Digite apenas números.');
     } else {
         peso = parseFloat(prompt('Digite o peso correspondente a esse número: '));
-        somaNumeros += numero * peso;
-        somaPesos += peso;
-        quantidadeNumeros++;
-    
+        if (isNaN(peso - 1)) {
+            console.log('Digite apenas números.');
+        } else {
+            somaNumeros += numero * peso;
+            somaPesos += peso;
+            quantidadeNumeros++;
+        }
     }
     numero = parseFloat(prompt('Digite um número decimal (utilize 0 para parar): '));
 }
@@ -33,5 +36,3 @@ if (quantidadeNumeros === 0) {
     console.log(`A média ponderada é: ${mediaPonderada.toFixed(2)}`);
     console.log('=============================================================================');
 }
-
-// && true !== isNaN(numero-1)

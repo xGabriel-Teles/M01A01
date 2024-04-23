@@ -4,6 +4,7 @@
 // 2 x N = 2N
 // 3 x N = 3N
 
+
 const prompt = require('prompt-sync')();
 
 

@@ -6,6 +6,7 @@
 // 4- OESTE        25 ATÉ 50 - NORDESTE
 // FORA DOS INTERVALOS - PRODUTO IMPORTADO
 
+
 const prompt = require('prompt-sync')();
 
 // Área de entrada:
