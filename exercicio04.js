@@ -19,10 +19,8 @@ if (nota1 <= 10 && nota2 <= 10 && nota1 >= 0 && nota2 >= 0) {
     if (mediaSemestral >= 6) {
         console.log(`PARABÉNS! Você foi aprovado, sua média no semestre foi de ${mediaSemestral}`);
     }
-// Caso o usuário digite um número negativo:
 } else if (nota1 < 0 || nota2 < 0) {
     console.log('As notas não podem possuir valor negativo.');
-// Caso o usuário digite um número superior a 10: 
 } else {
     console.log('As notas não podem possuir valor superior a 10.');
 }
