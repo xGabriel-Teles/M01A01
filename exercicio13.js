@@ -7,6 +7,7 @@
 
 const prompt = require('prompt-sync')();
 
+console.log('=============================================================================');
 
 for (let i = 0; i < 5; i++){
     let N = parseInt(prompt('Digite um número (N) para exibir a tabuada de 1 até N: '));
@@ -15,3 +16,4 @@ for (let i = 0; i < 5; i++){
     }
     console.log();
 }
+console.log('=============================================================================');

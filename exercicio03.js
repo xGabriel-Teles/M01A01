@@ -9,6 +9,7 @@
 const prompt = require('prompt-sync')();
 
 // Área de entrada: 
+console.log('=============================================================================')
 let num1 = parseInt(prompt('Digite o primeiro número: '));
 let num2 = parseInt(prompt('Digite o segundo número: '));
 let num3 = parseInt(prompt('Digite o terceiro número: '));
@@ -35,3 +36,4 @@ console.log(num1);
 console.log(num2);
 console.log(num3);
 console.log(num4);
+console.log('=============================================================================')

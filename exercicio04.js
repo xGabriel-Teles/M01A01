@@ -6,6 +6,7 @@
 const prompt = require('prompt-sync')();
 
 // Área de entrada: 
+console.log('=============================================================================');
 let nota1 = parseFloat(prompt('Digite a nota da primeira avaliação de 0 a 10: '));
 let nota2 = parseFloat(prompt('Digite a nota da segunda avaliação de 0 a 10: '));
 
@@ -17,7 +18,9 @@ let mediaSemestral = ((nota1 + nota2) / 2);
 // Condicional para verificar se o input do usuário está na regra estabelecida
 if (nota1 <= 10 && nota2 <= 10 && nota1 >= 0 && nota2 >= 0) {
     if (mediaSemestral >= 6) {
+        console.log();
         console.log(`PARABÉNS! Você foi aprovado, sua média no semestre foi de ${mediaSemestral}`);
+        console.log('=============================================================================');
     }
 } else if (nota1 < 0 || nota2 < 0) {
     console.log('As notas não podem possuir valor negativo.');
