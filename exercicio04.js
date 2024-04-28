@@ -18,8 +18,7 @@ let mediaSemestral = ((nota1 + nota2) / 2);
 // Condicional para verificar se o input do usuário está na regra estabelecida
 if (nota1 <= 10 && nota2 <= 10 && nota1 >= 0 && nota2 >= 0) {
     if (mediaSemestral >= 6) {
-        console.log();
-        console.log(`PARABÉNS! Você foi aprovado, sua média no semestre foi de ${mediaSemestral}`);
+        console.log(`\nPARABÉNS! Você foi aprovado, sua média no semestre foi de ${mediaSemestral}`);
         console.log('=============================================================================');
     }
 } else if (nota1 < 0 || nota2 < 0) {

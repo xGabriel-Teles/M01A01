@@ -27,5 +27,4 @@ while (qtdPrimos <= 50) {
 console.log('=============================================================================');
 
 // EXTRA: resultado em formato de array. 
-console.log();
-console.log(listaDePrimos);
+console.log("\n", listaDePrimos);

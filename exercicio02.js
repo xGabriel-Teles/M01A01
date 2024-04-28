@@ -14,19 +14,16 @@ let votosValidos = parseInt(prompt('Digite a quantidade de votos válidos: '));
 if ((votosBrancos + votosNulos + votosValidos)> eleitoresTotais){
     console.log('Os votos somados não podem ser maiores que a quantidade total de eleitores do município.');
 } else {
-    console.log();
     // Formula do cálculo de porcentagem = (Número de votos / Eleitores totais) x 100
-    console.log(`O percentual de votos em branco em relação a quantidade de eleitores totais do município é: ${((votosBrancos / eleitoresTotais)*100).toFixed(2)}%`);
+    console.log(`\nO percentual de votos em branco em relação a quantidade de eleitores totais do município é: ${((votosBrancos / eleitoresTotais)*100).toFixed(2)}%`);
     console.log(`O percentual de votos nulos em relação a quantidade de eleitores totais do município é: ${((votosNulos / eleitoresTotais)*100).toFixed(2)}%`);
     console.log(`O percentual de votos válidos em relação a quantidade de eleitores totais do município é: ${((votosValidos / eleitoresTotais)*100).toFixed(2)}%`);
     
     if (votosBrancos + votosNulos + votosValidos === eleitoresTotais) {
-        console.log();
-        console.log(`Os eleitores deste município estão de parabéns, 100% dos eleitores votaram!`);
+        console.log(`\nOs eleitores deste município estão de parabéns, 100% dos eleitores votaram!`);
         console.log('==============================================================================================================');
     } else {
-        console.log();
-        console.log(`Há eleitores neste município que não votaram, o percentual de pessoas que votaram neste município é de ${
+        console.log(`\nHá eleitores neste município que não votaram, o percentual de pessoas que votaram neste município é de ${
             // Formula do cálculo de porcentagem = (Soma do número de cada grupo de votos / Eleitores totais) x 100
             (((votosBrancos + votosNulos + votosValidos) / eleitoresTotais) * 100).toFixed(2)
         }%`);
