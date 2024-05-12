@@ -11,6 +11,5 @@ for (let i = 1000; i < 2000; i++){
         contagemFinal++;
     }
 }
-console.log();
-console.log(`Entre 1000 e 1999, há ${contagemFinal} números que divididos por 11, dão resto igual a 5.`);
+console.log(`\nEntre 1000 e 1999, há ${contagemFinal} números que divididos por 11, dão resto igual a 5.`);
 console.log('=============================================================================');
